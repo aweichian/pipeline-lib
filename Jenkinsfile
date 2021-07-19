@@ -50,7 +50,7 @@ stages {
             timeout(time:30, unit:"MINUTES") {
                 script {
                     println("代码扫描")
-                    tools.Printmesg("call shared library.................-------------_+++++++++++++++")
+                    tools.Printmsg("call shared library.................-------------_+++++++++++++++")
                 }
             }
         }
